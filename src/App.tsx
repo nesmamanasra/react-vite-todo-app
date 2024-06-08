@@ -1,19 +1,8 @@
-import './App.css'
-import Edit from './componants/Edit'
-import Todo from './componants/Todo'
-import TodoList from './componants/TodoList'
-import Form from './componants/Form'
+import Todo from './Todo'
 
 function App() {
- 
-
   return (
-    <div>
-         <TodoList/>
-         <Form/>
-         <Edit/>
-         <Todo/>
-    </div>
+   <Todo/>
   )
 }
 
